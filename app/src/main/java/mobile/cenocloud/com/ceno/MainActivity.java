@@ -2,8 +2,8 @@ package mobile.cenocloud.com.ceno;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -87,6 +87,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bottomButtonShop.setOnClickListener(this);
         bottomButtonSelf.setOnClickListener(this);
         bottomButtonApp.setOnClickListener(this);
+
+        bottomButtonHomeImg.setImageDrawable(getResources().getDrawable(R.drawable.home_blue));
+        bottomButtonHomeText.setTextColor(bottom_text_color_active);
     }
     void bottomButtonClear(){
         bottomButtonHomeImg.setImageDrawable(getResources().getDrawable(R.drawable.home));
