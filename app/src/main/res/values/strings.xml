@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ceno</string>
+    <string name="bt_home">首页</string>
+    <string name="bt_app">应用</string>
+    <string name="bt_shop">未来商店</string>
+    <string name="bt_my">个人中心</string>
+</resources>
