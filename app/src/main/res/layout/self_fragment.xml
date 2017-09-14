@@ -50,26 +50,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:src="@drawable/logo"
-                android:layout_weight="5"
+                android:layout_weight="1"
                 android:background="#fff"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical">
+
                 <TextView
+                    android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="#888"
+                    android:gravity="center_vertical"
                     android:text="NeroYang"/>
+
                 <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="#888"
                     android:text="151****2903"/>
             </LinearLayout>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:src="@drawable/r"/>
         </LinearLayout>
     </LinearLayout>
 
