@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffff"
-    tools:context="mobile.cenocloud.com.ceno.MainActivity">
+    tools:context="mobile.cenocloud.com.ceno.activity.MainActivity">
         <LinearLayout
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"

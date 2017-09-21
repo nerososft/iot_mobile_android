@@ -30,7 +30,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="#026aab"
-                    android:hint="九安血压仪"
+                    android:hint="小米智能灯"
                     android:textColorHint="#fff"
                     android:textSize="12sp" />
 
@@ -51,6 +51,7 @@
             android:src="@drawable/device" />
 
         <ImageView
+            android:id="@+id/device_add"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="5"

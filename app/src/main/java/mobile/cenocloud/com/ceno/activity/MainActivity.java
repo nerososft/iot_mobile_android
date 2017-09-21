@@ -1,4 +1,4 @@
-package mobile.cenocloud.com.ceno;
+package mobile.cenocloud.com.ceno.activity;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import mobile.cenocloud.com.ceno.R;
 import mobile.cenocloud.com.ceno.fragment.AppFragment;
 import mobile.cenocloud.com.ceno.fragment.HomeFragment;
 import mobile.cenocloud.com.ceno.fragment.SelfFragment;
