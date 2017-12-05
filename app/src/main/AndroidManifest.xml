@@ -23,7 +23,9 @@
         <activity android:name=".activity.WifiConnectActivity">
 
         </activity>
-        <activity android:name=".zxing.activity.CaptureActivity"></activity>
+        <activity android:name=".activity.LightActivity">
+
+        </activity>
         <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -362,7 +362,7 @@
 
                                 android:layout_height="wrap_content"
                                 android:textColor="#888"
-                                android:text="小米智能灯"/>
+                                android:text="CenoLight 智能床头灯"/>
                             <TextView
                                 android:layout_gravity="center"
                                 android:layout_width="match_parent"
@@ -370,55 +370,10 @@
                                 android:textColor="#888"
                                 android:paddingTop="5dp"
                                 android:layout_height="wrap_content"
-                                android:text="$200"/>
+                                android:text="¥99.9"/>
                         </LinearLayout>
                     </LinearLayout>
-                    <TextView
-                        android:layout_weight="1"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#eee"/>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="12dp"
-                        android:paddingTop="12dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal"
-                        android:background="#fff">
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_weight="3"
-                            android:layout_height="32dp"
-                            android:src="@drawable/item_deng"/>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_weight="1"
-                            android:orientation="vertical"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_weight="1"
-                                android:layout_gravity="center"
 
-                                android:layout_height="wrap_content"
-                                android:textColor="#888"
-                                android:text="小米智能灯"/>
-                            <TextView
-                                android:paddingTop="5dp"
-                                android:layout_gravity="center"
-                                android:layout_width="match_parent"
-                                android:layout_weight="1"
-                                android:textColor="#888"
-                                android:layout_height="wrap_content"
-                                android:text="$200"/>
-                        </LinearLayout>
-                    </LinearLayout>
-                    <TextView
-                        android:layout_weight="1"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#eee"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -426,6 +381,7 @@
 
 
             <LinearLayout
+                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#ddd"

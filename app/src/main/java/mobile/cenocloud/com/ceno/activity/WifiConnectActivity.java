@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -13,6 +14,7 @@ import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -41,10 +43,18 @@ public class WifiConnectActivity extends Activity implements OnClickListener {
 
 	private ProgressDialog mProgressDialog;
 
+
+	private ImageView btn_back;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.wifi_connect_activity);
+
+
+		this.btn_back = (ImageView) findViewById(R.id.top_back);
+		this.btn_back.setOnClickListener(this);
+
 
 		mWifiAdmin = new EspWifiAdminSimple(this);
 		mTvApSsid = (TextView) findViewById(R.id.tvApSssidConnected);
@@ -74,6 +84,14 @@ public class WifiConnectActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
+		switch (v.getId()){
+			case R.id.top_back:
+				Intent myIntent = new Intent();
+				myIntent = new Intent(WifiConnectActivity.this, MainActivity.class);
+				startActivity(myIntent);
+				this.finish();
+				break;
+		}
 
 		if (v == mBtnConfirm) {
 			String apSsid = mTvApSsid.getText().toString();
